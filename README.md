@@ -1,6 +1,6 @@
 #  User Details Search Demo
 
-This project depicts User List(2k-10k) to be display with lazyloading/Infinite scroll, This is developed with react(ts) and graphql with node express server.
+This project depicts User List(2k-10k) to be display with lazyloading/Infinite scroll, This is developed with react(ts) and graphql with node express(js) server.
 
 I then containerized the api server and react client and created docker-compose to connect them.
 
