@@ -1,7 +1,9 @@
-import apolloClient from '../lib/with-apollo'
 import Layout from '../components/Layout/Layout'
+import Typography from '@material-ui/core/Typography';
+
 const Page = () => (
   <Layout>
+    <Typography >Demo is On !!!</Typography>
     <style jsx global>{`
         html,
         body {
@@ -15,14 +17,5 @@ const Page = () => (
   </Layout>
 
 )
-
-export async function getStaticProps() {
-
-  return {
-    props: {
-      initialApolloState: apolloClient.cache.extract()
-    }
-  };
-}
 
 export default Page;

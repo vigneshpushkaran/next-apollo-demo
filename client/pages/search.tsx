@@ -1,4 +1,3 @@
-import { useQuery, gql } from "@apollo/client";
 import Card from '../components/Card'
 import Layout from '../components/Layout/Layout'
 import styles from '../globals.module.css'

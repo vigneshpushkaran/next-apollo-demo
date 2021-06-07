@@ -32,6 +32,7 @@ function useUsers() {
     const { data, loading, fetchMore } = useQuery(GET_USERS, {
         notifyOnNetworkStatusChange: true,
     });
+    console.log("data ",data)
     if (loading && !data) return { loading, users: [] };
     const loadMore = () => {
         return fetchMore({

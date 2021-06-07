@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Header'
-import styles from './layout.module.css'
+import styles from './Layout.module.css'
 const Layout = (props: any) => {
 
     const { children } = props
