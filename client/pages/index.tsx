@@ -1,10 +1,16 @@
 import Layout from '../components/Layout/Layout'
-import Typography from '@material-ui/core/Typography';
+import Typography from '@material-ui/core/Typography'
+import Head from 'next/head'
 
 const Page = () => (
-  <Layout>
-    <Typography >Demo is On !!!</Typography>
-    <style jsx global>{`
+  <div>
+    <Head>
+      <title>Demo - PS</title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
+    <Layout>
+      <Typography >Demo is On !!!</Typography>
+      <style jsx global>{`
         html,
         body {
           padding: 0;
@@ -14,7 +20,9 @@ const Page = () => (
             sans-serif;
         }
       `}</style>
-  </Layout>
+    </Layout>
+
+  </div>
 
 )
 

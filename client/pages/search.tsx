@@ -4,6 +4,7 @@ import styles from '../globals.module.css'
 import React from 'react';
 import InfiniteScroll from 'react-infinite-scroller';
 import useUsers from '../hooks/getUsers'
+import Head from 'next/head'
 
 const search = () => {
 
@@ -17,24 +18,29 @@ const search = () => {
 
 
   return (
-    <Layout>
-      <InfiniteScroll
-        pageStart={0}
-        loadMore={loadMore}
-        hasMore={hasNextPage}
-        loader={<div className="loader" key={0}>Loading ...</div>}
-        useWindow={true}
-      >
-        <div className={styles.cardParent}>
-          {users.map((data) => (
-            <Card key={data.id} {...data} />
-          ))}
-          <div className={styles.hiddenItem}></div>
-          <div className={styles.hiddenItem}></div>
-          <div className={styles.hiddenItem}></div>
-        </div>
-      </InfiniteScroll>
-      <style jsx global>{`
+    <div>
+      <Head>
+        <title>Demo - PS</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <Layout>
+        <InfiniteScroll
+          pageStart={0}
+          loadMore={loadMore}
+          hasMore={hasNextPage}
+          loader={<div className="loader" key={0}>Loading ...</div>}
+          useWindow={true}
+        >
+          <div className={styles.cardParent}>
+            {users.map((data) => (
+              <Card key={data.id} {...data} />
+            ))}
+            <div className={styles.hiddenItem}></div>
+            <div className={styles.hiddenItem}></div>
+            <div className={styles.hiddenItem}></div>
+          </div>
+        </InfiniteScroll>
+        <style jsx global>{`
           html,
           body {
             padding: 0;
@@ -44,7 +50,8 @@ const search = () => {
               sans-serif;
           }
       `}</style>
-    </Layout>
+      </Layout>
+    </div>
   )
 
 }
