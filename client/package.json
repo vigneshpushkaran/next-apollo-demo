@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "NEXT_PUBLIC_API_URL=http://localhost:6000 next",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "test": "jest"
   },
   "license": "MIT",
@@ -13,7 +13,6 @@
     "@apollo/client": "^3.3.19",
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
-    "D": "^1.0.0",
     "apollo-client": "^2.6.10",
     "apollo-link-http": "^1.5.17",
     "faker": "^5.5.3",
