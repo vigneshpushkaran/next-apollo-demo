@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "NEXT_PUBLIC_API_URL=http://localhost:6000 next",
     "build": "next build",
+    "heroku-postbuild": "yarn build",
     "start": "next start -p $PORT",
     "test": "jest"
   },
