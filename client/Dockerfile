@@ -8,10 +8,6 @@ WORKDIR /app
 
 COPY ["package.json", "yarn.lock", "./"]
 
-RUN echo "NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL" > .env.local
-
-RUN ls
-
 RUN yarn install
 
 RUN npx next telemetry disable

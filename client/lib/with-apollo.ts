@@ -4,7 +4,7 @@ let apolloClient: ApolloClient<NormalizedCacheObject> = createApolloClient();
 
 function createApolloClient() {
   return new ApolloClient({
-    uri: "http://localhost:5000/graphql",
+    uri: `${process.env.NEXT_PUBLIC_API_URL}/graphql`,
     cache: new InMemoryCache()
   });
 }
