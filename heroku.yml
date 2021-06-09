@@ -1,0 +1,6 @@
+build:
+  docker:
+    web: client/Dockerfile
+    worker: server/Dockerfile
+  config:
+    NEXT_PUBLIC_API_URL: https://ps-b.herokuapp.com
