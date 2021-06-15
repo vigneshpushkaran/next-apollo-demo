@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "pages/index.tsx",
   "scripts": {
-    "dev": "NEXT_PUBLIC_API_URL=http://localhost:6000 next",
+    "dev": "NEXT_PUBLIC_API_URL=http://localhost:5000 next",
     "build": "next build",
     "heroku-postbuild": "yarn build",
     "start": "next start -p $PORT",
