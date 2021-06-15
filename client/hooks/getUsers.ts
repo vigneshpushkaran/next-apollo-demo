@@ -28,7 +28,6 @@ function useUsers() {
     notifyOnNetworkStatusChange: true,
   });
   if (loading && !data) {
-    console.log("data1 ", data)
     return { loading, users: [] };
   }
   const loadMore = () => {
