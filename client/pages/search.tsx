@@ -5,6 +5,7 @@ import React from 'react';
 import InfiniteScroll from 'react-infinite-scroller';
 import useUsers from '../hooks/getUsers'
 import Head from 'next/head'
+import { withPageAuthRequired } from '@auth0/nextjs-auth0'
 
 const search = () => {
 
@@ -58,4 +59,4 @@ const search = () => {
 
 }
 
-export default search
+export default withPageAuthRequired(search)

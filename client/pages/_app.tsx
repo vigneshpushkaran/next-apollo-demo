@@ -4,8 +4,11 @@ import React from "react";
 import Header from '../components/Header'
 import apolloClient from "../lib/with-apollo"
 import Head from 'next/head'
+import { UserProvider } from '@auth0/nextjs-auth0'
 
 export default function App({ Component, pageProps }: AppProps) {
+
+  const { user } = pageProps;
 
   return (
     <div>
@@ -13,10 +16,12 @@ export default function App({ Component, pageProps }: AppProps) {
         <title>Demo - PS</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Header />
-      <ApolloProvider client={apolloClient}>
-        <Component {...pageProps} />
-      </ApolloProvider>
+      <UserProvider user={user}>
+        <Header />
+        <ApolloProvider client={apolloClient}>
+          <Component {...pageProps} />
+        </ApolloProvider>
+      </UserProvider>
     </div>
   );
 }

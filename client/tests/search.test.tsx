@@ -1,9 +1,11 @@
 
 import React from 'react';
-import App from '../pages/search';
-import { MockedProvider } from '@apollo/react-testing';
-import { render, cleanup } from "@testing-library/react";
+import App from '../pages/search'
+import { UserProvider } from '@auth0/nextjs-auth0'
+import { MockedProvider } from '@apollo/react-testing'
+import { render, cleanup } from "@testing-library/react"
 import { GET_USERS } from '../hooks/getUsers'
+
 
 const mocks = [
     {
@@ -85,21 +87,41 @@ const mocks = [
     }
 ];
 
+
+const user = {
+    email: "vicky@hotmail.com",
+    name: "Vignesh"
+};
+
 afterEach(cleanup);
 
 test('renders without error with snapshot', async () => {
-    const { findByText, asFragment, getByText } = render(
-        <MockedProvider mocks={mocks} addTypename={false}>
-            <App />
-        </MockedProvider>,
+    const { asFragment, getByText } = render(
+        <UserProvider user={user} >
+            <MockedProvider mocks={mocks} addTypename={false}>
+                <App user={user} />
+            </MockedProvider>
+        </UserProvider>
     );
-    expect(getByText("Loading...")).toBeInTheDocument();
 
-    const buttonTag = await findByText("Home");
-    expect(buttonTag).toBeInTheDocument();
+    await new Promise(resolve => setTimeout(resolve, 0));
 
     expect(asFragment()).toMatchSnapshot();
 
     expect(getByText(/Willa Jast/i)).toBeInTheDocument();
+});
+
+test('renders with loading state - snapshot', async () => {
+    const { asFragment, getByText } = render(
+        <UserProvider user={user} >
+            <MockedProvider mocks={mocks} addTypename={false}>
+                <App user={user} />
+            </MockedProvider>
+        </UserProvider>
+    );
+
+    expect(asFragment()).toMatchSnapshot();
+
+    expect(getByText(/Loading.../i)).toBeInTheDocument();
 });
 
