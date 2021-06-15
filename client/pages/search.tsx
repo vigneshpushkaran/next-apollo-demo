@@ -11,7 +11,10 @@ const search = () => {
   const { users, loading, loadMore, hasNextPage } = useUsers()
 
   if (loading) {
-    return (<h2>Loading...</h2>);
+    return (
+      <Layout>
+        <h2>Loading...</h2>
+      </Layout>);
   }
 
   console.log("User List", users)
