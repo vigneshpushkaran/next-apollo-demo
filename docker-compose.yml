@@ -4,7 +4,8 @@ services:
     image: react-app
     stdin_open: true
     environment: 
-      - NEXT_PUBLIC_API_URL=http://localhost:5000
+      - PORT=3000
+      - API_URL=http://localhost:5000
       - AUTH0_SECRET=77d4ba7d83cdddb3fbee39b6e2d25e9b6c297466e72008d055b9899f36572ec9
       - AUTH0_BASE_URL=http://localhost:3000
       - AUTH0_ISSUER_BASE_URL=https://dev-ccl69nx0.auth0.com
