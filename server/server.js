@@ -2,7 +2,8 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const { ApolloServer } = require('apollo-server-express')
-const { typeDefs, resolvers } = require('./schema')
+const { typeDefs } = require('./schema')
+const { resolvers } = require('./resolver')
 const helmet = require('helmet');
 
 const port = process.env.PORT || 5000

@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <div>
       <Head>
-        <title>Demo - PS</title>
+        <title>Demo - EY</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <UserProvider user={user}>

@@ -1,0 +1,30 @@
+  type User {
+    id: ID,
+    name: String
+    firstName:String
+    lastName:String
+    jobTitle: String
+    jobArea: String
+    jobDesc: String
+    companyName: String
+    phNo: String
+    empId: String
+    dateJoined: String
+    avatar: String
+    title : String
+  }
+  type UserEdge {
+    cursor: ID!,
+    node: User!,
+  }
+  type UserConnection {
+    edges: [UserEdge]
+    pageInfo: PageInfo
+  }
+  type PageInfo {
+    endCursor: ID!,
+    hasNextPage: Boolean!,
+  }
+  type Query {
+    users(first: Int!, cursor: ID): UserConnection
+  }
