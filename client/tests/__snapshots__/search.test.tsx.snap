@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders with laoding state - snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="layout"
+  >
+    <h2>
+      Loading...
+    </h2>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders with loading state - snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="layout"
+  >
+    <h2>
+      Loading...
+    </h2>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders without error with snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="layout"
+    >
+      <div>
+        <div
+          class="jsx-2990347280 cardParent"
+        >
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="recipe"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-4"
+                >
+                  <img
+                    class="MuiAvatar-img"
+                    srcset="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20baseProfile%3D%22full%22%20width%3D%22undefined%22%20height%3D%22undefined%22%3E%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22grey%22%2F%3E%20%20%3Ctext%20x%3D%220%22%20y%3D%2220%22%20font-size%3D%2220%22%20text-anchor%3D%22start%22%20fill%3D%22white%22%3Eundefinedxundefined%3C%2Ftext%3E%20%3C%2Fsvg%3E"
+                  />
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Mr. Willa Jast
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  Corporate Markets Administrator
+                </span>
+              </div>
+            </div>
+            <div
+              class="MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Hermiston - Reichert
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                Et qui quia odio et.
+Eligendi in deserunt.
+Harum sit odio quia vitae provident quo provident.
+Harum ullam pariatur quos est quod.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="recipe"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-4"
+                >
+                  <img
+                    class="MuiAvatar-img"
+                    srcset="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20baseProfile%3D%22full%22%20width%3D%22undefined%22%20height%3D%22undefined%22%3E%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22grey%22%2F%3E%20%20%3Ctext%20x%3D%220%22%20y%3D%2220%22%20font-size%3D%2220%22%20text-anchor%3D%22start%22%20fill%3D%22white%22%3Eundefinedxundefined%3C%2Ftext%3E%20%3C%2Fsvg%3E"
+                  />
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Dr. Jillian Kohler
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  Product Paradigm Analyst
+                </span>
+              </div>
+            </div>
+            <div
+              class="MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Pfeffer - Parisian
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                Nobis et sint magnam aut atque.
+Maiores incidunt occaecati iusto laborum facere.
+Deleniti dolorem quibusdam.
+Veniam perspiciatis et nisi aut corporis laboriosam.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="recipe"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-4"
+                >
+                  <img
+                    class="MuiAvatar-img"
+                    srcset="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20baseProfile%3D%22full%22%20width%3D%22undefined%22%20height%3D%22undefined%22%3E%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22grey%22%2F%3E%20%20%3Ctext%20x%3D%220%22%20y%3D%2220%22%20font-size%3D%2220%22%20text-anchor%3D%22start%22%20fill%3D%22white%22%3Eundefinedxundefined%3C%2Ftext%3E%20%3C%2Fsvg%3E"
+                  />
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Mrs. Mitchel Ziemann
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  Product Infrastructure Analyst
+                </span>
+              </div>
+            </div>
+            <div
+              class="MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Lowe - Purdy
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                Minima sequi voluptas optio.
+Voluptatem excepturi eligendi.
+Iste eius iure commodi molestiae at voluptas quo ex reprehenderit.
+Incidunt corporis vel.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="recipe"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-4"
+                >
+                  <img
+                    class="MuiAvatar-img"
+                    srcset="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20baseProfile%3D%22full%22%20width%3D%22undefined%22%20height%3D%22undefined%22%3E%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22grey%22%2F%3E%20%20%3Ctext%20x%3D%220%22%20y%3D%2220%22%20font-size%3D%2220%22%20text-anchor%3D%22start%22%20fill%3D%22white%22%3Eundefinedxundefined%3C%2Ftext%3E%20%3C%2Fsvg%3E"
+                  />
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Mr. Maida Dickinson
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  Forward Configuration Designer
+                </span>
+              </div>
+            </div>
+            <div
+              class="MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Gerhold - Rau
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                Cum ipsam consequatur ex accusamus ipsum.
+Eum inventore laboriosam deleniti omnis occaecati.
+Culpa occaecati nemo alias et doloribus expedita.
+Ut quia ut nostrum ducimus occaecati veniam ut exercitationem voluptatibus.
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiCard-root makeStyles-root-1 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <div
+              class="MuiCardHeader-root"
+            >
+              <div
+                class="MuiCardHeader-avatar"
+              >
+                <div
+                  aria-label="recipe"
+                  class="MuiAvatar-root MuiAvatar-circle makeStyles-avatar-4"
+                >
+                  <img
+                    class="MuiAvatar-img"
+                    srcset="data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20baseProfile%3D%22full%22%20width%3D%22undefined%22%20height%3D%22undefined%22%3E%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22grey%22%2F%3E%20%20%3Ctext%20x%3D%220%22%20y%3D%2220%22%20font-size%3D%2220%22%20text-anchor%3D%22start%22%20fill%3D%22white%22%3Eundefinedxundefined%3C%2Ftext%3E%20%3C%2Fsvg%3E"
+                  />
+                </div>
+              </div>
+              <div
+                class="MuiCardHeader-content"
+              >
+                <span
+                  class="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+                >
+                  Dr. Mrs. Reanna Walter
+                </span>
+                <span
+                  class="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                >
+                  Senior Mobility Architect
+                </span>
+              </div>
+            </div>
+            <div
+              class="MuiCardContent-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1"
+              >
+                Bogan Group
+              </p>
+              <p
+                class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextSecondary"
+              >
+                Molestias ab esse impedit aliquam quo vel dolorem.
+Dolor consequatur quis nobis nemo asperiores nam ea aut.
+Nam corrupti necessitatibus quas.
+Ea odio sit odio quae voluptas id error.
+              </p>
+            </div>
+          </div>
+          <div
+            class="jsx-2990347280 hiddenItem"
+          />
+          <div
+            class="jsx-2990347280 hiddenItem"
+          />
+          <div
+            class="jsx-2990347280 hiddenItem"
+          />
+        </div>
+        <div
+          class="jsx-2990347280 loader"
+        >
+          Loading ...
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

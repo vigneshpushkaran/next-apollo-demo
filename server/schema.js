@@ -1,21 +1,10 @@
-const {
-  graphql,
-  GraphQLSchema,
-  GraphQLObjectType,
-  GraphQLString
-} = require('graphql')
-const faker = require('faker')
+const { gql } = require('apollo-server-express');
+const path = require('path');
+const fs  = require('fs');
 
-module.exports = new GraphQLSchema({
-  query: new GraphQLObjectType({
-    name: 'RootQueryType',
-    fields: {
-      name: {
-        type: GraphQLString,
-        resolve() {
-          return faker.name.findName()
-        }
-      }
-    }
-  })
-})
+const schemaText = fs.readFileSync(path.resolve(__dirname, 'schema.graphql')); 
+
+const typeDefs = gql`${schemaText}`;
+
+module.exports = { typeDefs };
+
